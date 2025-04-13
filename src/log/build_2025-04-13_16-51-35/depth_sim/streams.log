@@ -1,0 +1,61 @@
+[0.018s] Invoking command in '/home/walker/Depth_gz/src/build/depth_sim': AMENT_PREFIX_PATH=/home/walker/Depth_gz/src/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/walker/Depth_gz/src/install/px4_msgs:/home/walker/Depth_gz/install/px4_ros_com:/home/walker/Depth_gz/install/depth_sim:/home/walker/Depth_gz/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/walker/Depth_gz/src/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/walker/Depth_gz/src/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/walker/Depth_gz/src/depth_sim -DCMAKE_INSTALL_PREFIX=/home/walker/Depth_gz/src/install/depth_sim
+[0.430s] -- The C compiler identification is GNU 11.4.0
+[0.430s] -- The CXX compiler identification is GNU 11.4.0
+[0.430s] -- Detecting C compiler ABI info
+[0.430s] -- Detecting C compiler ABI info - done
+[0.430s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.430s] -- Detecting C compile features
+[0.430s] -- Detecting C compile features - done
+[0.430s] -- Detecting CXX compiler ABI info
+[0.430s] -- Detecting CXX compiler ABI info - done
+[0.430s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.430s] -- Detecting CXX compile features
+[0.430s] -- Detecting CXX compile features - done
+[0.430s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.516s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.824s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.020s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.026s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.035s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.050s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.069s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.264s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.492s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.595s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.699s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.742s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.944s] -- Looking for pthread.h
+[4.036s] -- Looking for pthread.h - found
+[4.037s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.105s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.106s] -- Found Threads: TRUE  
+[4.420s] -- Found px4_msgs: 2.0.1 (/home/walker/Depth_gz/src/install/px4_msgs/share/px4_msgs/cmake)
+[4.499s] -- Configuring done
+[4.507s] -- Generating done
+[4.510s] -- Build files have been written to: /home/walker/Depth_gz/src/build/depth_sim
+[4.518s] Invoked command in '/home/walker/Depth_gz/src/build/depth_sim' returned '0': AMENT_PREFIX_PATH=/home/walker/Depth_gz/src/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/walker/Depth_gz/src/install/px4_msgs:/home/walker/Depth_gz/install/px4_ros_com:/home/walker/Depth_gz/install/depth_sim:/home/walker/Depth_gz/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/walker/Depth_gz/src/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/walker/Depth_gz/src/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/walker/Depth_gz/src/depth_sim -DCMAKE_INSTALL_PREFIX=/home/walker/Depth_gz/src/install/depth_sim
+[4.519s] Invoking command in '/home/walker/Depth_gz/src/build/depth_sim': AMENT_PREFIX_PATH=/home/walker/Depth_gz/src/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/walker/Depth_gz/src/install/px4_msgs:/home/walker/Depth_gz/install/px4_ros_com:/home/walker/Depth_gz/install/depth_sim:/home/walker/Depth_gz/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/walker/Depth_gz/src/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/walker/Depth_gz/src/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/walker/Depth_gz/src/build/depth_sim -- -j8 -l8
+[4.563s] [ 50%] [32mBuilding CXX object CMakeFiles/offboard_node.dir/src/offboard_node.cpp.o[0m
+[43.163s] [100%] [32m[1mLinking CXX executable offboard_node[0m
+[49.727s] [100%] Built target offboard_node
+[49.883s] Invoked command in '/home/walker/Depth_gz/src/build/depth_sim' returned '0': AMENT_PREFIX_PATH=/home/walker/Depth_gz/src/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/walker/Depth_gz/src/install/px4_msgs:/home/walker/Depth_gz/install/px4_ros_com:/home/walker/Depth_gz/install/depth_sim:/home/walker/Depth_gz/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/walker/Depth_gz/src/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/walker/Depth_gz/src/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/walker/Depth_gz/src/build/depth_sim -- -j8 -l8
+[49.975s] Invoking command in '/home/walker/Depth_gz/src/build/depth_sim': AMENT_PREFIX_PATH=/home/walker/Depth_gz/src/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/walker/Depth_gz/src/install/px4_msgs:/home/walker/Depth_gz/install/px4_ros_com:/home/walker/Depth_gz/install/depth_sim:/home/walker/Depth_gz/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/walker/Depth_gz/src/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/walker/Depth_gz/src/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/walker/Depth_gz/src/build/depth_sim
+[50.043s] -- Install configuration: ""
+[50.043s] -- Installing: /home/walker/Depth_gz/src/install/depth_sim/lib/depth_sim/offboard_node
+[50.046s] -- Set runtime path of "/home/walker/Depth_gz/src/install/depth_sim/lib/depth_sim/offboard_node" to ""
+[50.046s] -- Installing: /home/walker/Depth_gz/src/install/depth_sim/share/ament_index/resource_index/package_run_dependencies/depth_sim
+[50.047s] -- Installing: /home/walker/Depth_gz/src/install/depth_sim/share/ament_index/resource_index/parent_prefix_path/depth_sim
+[50.048s] -- Installing: /home/walker/Depth_gz/src/install/depth_sim/share/depth_sim/environment/ament_prefix_path.sh
+[50.048s] -- Installing: /home/walker/Depth_gz/src/install/depth_sim/share/depth_sim/environment/ament_prefix_path.dsv
+[50.048s] -- Installing: /home/walker/Depth_gz/src/install/depth_sim/share/depth_sim/environment/path.sh
+[50.048s] -- Installing: /home/walker/Depth_gz/src/install/depth_sim/share/depth_sim/environment/path.dsv
+[50.049s] -- Installing: /home/walker/Depth_gz/src/install/depth_sim/share/depth_sim/local_setup.bash
+[50.049s] -- Installing: /home/walker/Depth_gz/src/install/depth_sim/share/depth_sim/local_setup.sh
+[50.049s] -- Installing: /home/walker/Depth_gz/src/install/depth_sim/share/depth_sim/local_setup.zsh
+[50.050s] -- Installing: /home/walker/Depth_gz/src/install/depth_sim/share/depth_sim/local_setup.dsv
+[50.050s] -- Installing: /home/walker/Depth_gz/src/install/depth_sim/share/depth_sim/package.dsv
+[50.050s] -- Installing: /home/walker/Depth_gz/src/install/depth_sim/share/ament_index/resource_index/packages/depth_sim
+[50.050s] -- Installing: /home/walker/Depth_gz/src/install/depth_sim/share/depth_sim/cmake/depth_simConfig.cmake
+[50.051s] -- Installing: /home/walker/Depth_gz/src/install/depth_sim/share/depth_sim/cmake/depth_simConfig-version.cmake
+[50.051s] -- Installing: /home/walker/Depth_gz/src/install/depth_sim/share/depth_sim/package.xml
+[50.053s] Invoked command in '/home/walker/Depth_gz/src/build/depth_sim' returned '0': AMENT_PREFIX_PATH=/home/walker/Depth_gz/src/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/walker/Depth_gz/src/install/px4_msgs:/home/walker/Depth_gz/install/px4_ros_com:/home/walker/Depth_gz/install/depth_sim:/home/walker/Depth_gz/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/walker/Depth_gz/src/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/walker/Depth_gz/src/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/walker/Depth_gz/src/build/depth_sim

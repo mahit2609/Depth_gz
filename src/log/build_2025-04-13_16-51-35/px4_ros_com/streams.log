@@ -1,0 +1,147 @@
+[0.423s] Invoking command in '/home/walker/Depth_gz/src/build/px4_ros_com': AMENT_PREFIX_PATH=/home/walker/Depth_gz/src/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/walker/Depth_gz/src/install/px4_msgs:/home/walker/Depth_gz/install/px4_ros_com:/home/walker/Depth_gz/install/depth_sim:/home/walker/Depth_gz/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/walker/Depth_gz/src/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/walker/Depth_gz/src/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/walker/Depth_gz/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/walker/Depth_gz/src/install/px4_ros_com
+[0.705s] -- The C compiler identification is GNU 11.4.0
+[0.783s] -- The CXX compiler identification is GNU 11.4.0
+[0.789s] -- Detecting C compiler ABI info
+[0.855s] -- Detecting C compiler ABI info - done
+[0.863s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.863s] -- Detecting C compile features
+[0.864s] -- Detecting C compile features - done
+[0.867s] -- Detecting CXX compiler ABI info
+[0.946s] -- Detecting CXX compiler ABI info - done
+[0.959s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.959s] -- Detecting CXX compile features
+[0.960s] -- Detecting CXX compile features - done
+[0.963s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.138s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.233s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.266s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.271s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.279s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.291s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.307s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.376s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.715s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.755s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.115s] -- Found px4_msgs: 2.0.1 (/home/walker/Depth_gz/src/install/px4_msgs/share/px4_msgs/cmake)
+[2.125s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[2.254s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.482s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.585s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.673s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.719s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.934s] -- Looking for pthread.h
+[4.026s] -- Looking for pthread.h - found
+[4.026s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.095s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.096s] -- Found Threads: TRUE  
+[4.423s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.469s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[4.491s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.798s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.200s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.201s] -- Configured cppcheck include dirs: /home/walker/Depth_gz/src/px4_ros_com/include;$<BUILD_INTERFACE:/home/walker/Depth_gz/src/px4_ros_com/include/px4_ros_com>
+[5.202s] -- Configured cppcheck exclude dirs and/or files: 
+[5.251s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.251s] -- Configured cpplint exclude dirs and/or files: 
+[5.335s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.416s] -- Added test 'lint_cmake' to check CMake code style
+[5.418s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.521s] -- Added test 'uncrustify' to check C / C++ code style
+[5.521s] -- Configured uncrustify additional arguments: 
+[5.620s] -- Added test 'xmllint' to check XML markup files
+[5.624s] -- Configuring done
+[5.653s] -- Generating done
+[5.662s] -- Build files have been written to: /home/walker/Depth_gz/src/build/px4_ros_com
+[5.675s] Invoked command in '/home/walker/Depth_gz/src/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/walker/Depth_gz/src/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/walker/Depth_gz/src/install/px4_msgs:/home/walker/Depth_gz/install/px4_ros_com:/home/walker/Depth_gz/install/depth_sim:/home/walker/Depth_gz/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/walker/Depth_gz/src/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/walker/Depth_gz/src/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/walker/Depth_gz/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/walker/Depth_gz/src/install/px4_ros_com
+[5.676s] Invoking command in '/home/walker/Depth_gz/src/build/px4_ros_com': AMENT_PREFIX_PATH=/home/walker/Depth_gz/src/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/walker/Depth_gz/src/install/px4_msgs:/home/walker/Depth_gz/install/px4_ros_com:/home/walker/Depth_gz/install/depth_sim:/home/walker/Depth_gz/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/walker/Depth_gz/src/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/walker/Depth_gz/src/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/walker/Depth_gz/src/build/px4_ros_com -- -j8 -l8
+[5.727s] [ 16%] [32mBuilding CXX object CMakeFiles/vehicle_gps_position_listener.dir/src/examples/listeners/vehicle_gps_position_listener.cpp.o[0m
+[5.728s] [ 16%] [32mBuilding CXX object CMakeFiles/debug_vect_advertiser.dir/src/examples/advertisers/debug_vect_advertiser.cpp.o[0m
+[5.730s] [ 50%] [32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o[0m
+[5.730s] [ 50%] [32mBuilding CXX object CMakeFiles/offboard_control_srv.dir/src/examples/offboard/offboard_control_srv.cpp.o[0m
+[5.730s] [ 50%] [32mBuilding CXX object CMakeFiles/sensor_combined_listener.dir/src/examples/listeners/sensor_combined_listener.cpp.o[0m
+[5.730s] [ 50%] [32mBuilding CXX object CMakeFiles/frame_transforms.dir/src/lib/frame_transforms.cpp.o[0m
+[5.741s] [ 50%] Built target ament_cmake_python_copy_px4_ros_com
+[6.014s] running egg_info
+[6.015s] creating px4_ros_com.egg-info
+[6.015s] writing px4_ros_com.egg-info/PKG-INFO
+[6.015s] writing dependency_links to px4_ros_com.egg-info/dependency_links.txt
+[6.015s] writing top-level names to px4_ros_com.egg-info/top_level.txt
+[6.016s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[6.018s] reading manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[6.018s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[6.050s] [ 50%] Built target ament_cmake_python_build_px4_ros_com_egg
+[42.962s] [ 91%] [32m[1mLinking CXX executable sensor_combined_listener[0m
+[42.984s] [ 91%] [32m[1mLinking CXX executable vehicle_gps_position_listener[0m
+[42.985s] [ 91%] [32m[1mLinking CXX shared library libframe_transforms.so[0m
+[42.985s] [ 91%] [32m[1mLinking CXX executable offboard_control[0m
+[42.985s] [ 91%] [32m[1mLinking CXX executable debug_vect_advertiser[0m
+[42.985s] [100%] [32m[1mLinking CXX executable offboard_control_srv[0m
+[48.069s] [100%] Built target frame_transforms
+[49.488s] [100%] Built target offboard_control
+[49.499s] [100%] Built target debug_vect_advertiser
+[49.526s] [100%] Built target offboard_control_srv
+[49.690s] [100%] Built target vehicle_gps_position_listener
+[49.716s] [100%] Built target sensor_combined_listener
+[49.965s] Invoked command in '/home/walker/Depth_gz/src/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/walker/Depth_gz/src/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/walker/Depth_gz/src/install/px4_msgs:/home/walker/Depth_gz/install/px4_ros_com:/home/walker/Depth_gz/install/depth_sim:/home/walker/Depth_gz/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/walker/Depth_gz/src/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/walker/Depth_gz/src/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/walker/Depth_gz/src/build/px4_ros_com -- -j8 -l8
+[49.966s] Invoking command in '/home/walker/Depth_gz/src/build/px4_ros_com': AMENT_PREFIX_PATH=/home/walker/Depth_gz/src/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/walker/Depth_gz/src/install/px4_msgs:/home/walker/Depth_gz/install/px4_ros_com:/home/walker/Depth_gz/install/depth_sim:/home/walker/Depth_gz/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/walker/Depth_gz/src/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/walker/Depth_gz/src/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/walker/Depth_gz/src/build/px4_ros_com
+[50.033s] -- Install configuration: ""
+[50.033s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener
+[50.036s] -- Set runtime path of "/home/walker/Depth_gz/src/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener" to ""
+[50.037s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener
+[50.040s] -- Set runtime path of "/home/walker/Depth_gz/src/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener" to ""
+[50.040s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser
+[50.041s] -- Set runtime path of "/home/walker/Depth_gz/src/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser" to ""
+[50.041s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/lib/px4_ros_com/offboard_control
+[50.044s] -- Set runtime path of "/home/walker/Depth_gz/src/install/px4_ros_com/lib/px4_ros_com/offboard_control" to ""
+[50.044s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv
+[50.045s] -- Set runtime path of "/home/walker/Depth_gz/src/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv" to ""
+[50.045s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh
+[50.046s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv
+[50.046s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/include/px4_ros_com
+[50.046s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/include/px4_ros_com/frame_transforms.h
+[50.069s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/lib/libframe_transforms.so
+[50.073s] -- Set runtime path of "/home/walker/Depth_gz/src/install/px4_ros_com/lib/libframe_transforms.so" to ""
+[50.073s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/share/px4_ros_com//launch
+[50.073s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml
+[50.074s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py
+[50.074s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/share/px4_ros_com//test
+[50.074s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/share/px4_ros_com//test/test_output.py
+[50.075s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/share/px4_ros_com//test/test_input.py
+[50.075s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py
+[50.075s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/share/px4_ros_com//test/__init__.py
+[50.075s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.sh
+[50.076s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.dsv
+[50.076s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info
+[50.076s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/top_level.txt
+[50.077s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/PKG-INFO
+[50.078s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/SOURCES.txt
+[50.222s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/dependency_links.txt
+[50.469s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com
+[50.513s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py
+[50.514s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py
+[51.104s] Listing '/home/walker/Depth_gz/src/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com'...
+[51.104s] Compiling '/home/walker/Depth_gz/src/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py'...
+[51.104s] Compiling '/home/walker/Depth_gz/src/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py'...
+[51.113s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/lib/px4_ros_com/offboard_control.py
+[51.115s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com
+[51.116s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com
+[51.116s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh
+[51.116s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv
+[51.117s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/share/px4_ros_com/environment/path.sh
+[51.117s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/share/px4_ros_com/environment/path.dsv
+[51.118s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/share/px4_ros_com/local_setup.bash
+[51.118s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/share/px4_ros_com/local_setup.sh
+[51.118s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/share/px4_ros_com/local_setup.zsh
+[51.119s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/share/px4_ros_com/local_setup.dsv
+[51.119s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/share/px4_ros_com/package.dsv
+[51.119s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com
+[51.120s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
+[51.120s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake
+[51.122s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake
+[51.122s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake
+[51.123s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake
+[51.123s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake
+[51.124s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake
+[51.124s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake
+[51.125s] -- Installing: /home/walker/Depth_gz/src/install/px4_ros_com/share/px4_ros_com/package.xml
+[51.127s] Invoked command in '/home/walker/Depth_gz/src/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/walker/Depth_gz/src/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/walker/Depth_gz/src/install/px4_msgs:/home/walker/Depth_gz/install/px4_ros_com:/home/walker/Depth_gz/install/depth_sim:/home/walker/Depth_gz/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/walker/Depth_gz/src/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/walker/Depth_gz/src/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/walker/Depth_gz/src/build/px4_ros_com

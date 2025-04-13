@@ -1,0 +1,2 @@
+[0.065s] Invoking command in '/home/walker/Depth_gz/src/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/walker/Depth_gz/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --build /home/walker/Depth_gz/src/build/px4_msgs -- -j8 -l8
+[1.350s] Invoked command in '/home/walker/Depth_gz/src/build/px4_msgs' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/walker/Depth_gz/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --build /home/walker/Depth_gz/src/build/px4_msgs -- -j8 -l8

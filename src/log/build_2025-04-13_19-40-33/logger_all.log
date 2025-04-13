@@ -1,0 +1,173 @@
+[0.087s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.087s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7bf4e3e5e350>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7bf4e3e5dde0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7bf4e3e5dde0>>, mixin_verb=('build',))
+[0.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.691s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/walker/Depth_gz/src'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(depth_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(depth_sim) by extension 'ignore'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(depth_sim) by extension 'ignore_ament_install'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(depth_sim) by extensions ['colcon_pkg']
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(depth_sim) by extension 'colcon_pkg'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(depth_sim) by extensions ['colcon_meta']
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(depth_sim) by extension 'colcon_meta'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(depth_sim) by extensions ['ros']
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(depth_sim) by extension 'ros'
+[0.714s] DEBUG:colcon.colcon_core.package_identification:Package 'depth_sim' with type 'ros.ament_cmake' and name 'depth_sim'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(px4-offboard) by extensions ['ignore', 'ignore_ament_install']
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(px4-offboard) by extension 'ignore'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(px4-offboard) by extension 'ignore_ament_install'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(px4-offboard) by extensions ['colcon_pkg']
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(px4-offboard) by extension 'colcon_pkg'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(px4-offboard) by extensions ['colcon_meta']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(px4-offboard) by extension 'colcon_meta'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(px4-offboard) by extensions ['ros']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(px4-offboard) by extension 'ros'
+[0.716s] DEBUG:colcon.colcon_core.package_identification:Package 'px4-offboard' with type 'ros.ament_python' and name 'px4_offboard'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extension 'ignore'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extension 'ignore_ament_install'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extensions ['colcon_pkg']
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extension 'colcon_pkg'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extensions ['colcon_meta']
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extension 'colcon_meta'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extensions ['ros']
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extension 'ros'
+[0.718s] DEBUG:colcon.colcon_core.package_identification:Package 'px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extensions ['ignore', 'ignore_ament_install']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extension 'ignore'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extension 'ignore_ament_install'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extensions ['colcon_pkg']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extension 'colcon_pkg'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extensions ['colcon_meta']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extension 'colcon_meta'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extensions ['ros']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extension 'ros'
+[0.719s] DEBUG:colcon.colcon_core.package_identification:Package 'px4_ros_com' with type 'ros.ament_cmake' and name 'px4_ros_com'
+[0.719s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.719s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.719s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.719s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.719s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.738s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.738s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.740s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/walker/Depth_gz/install
+[0.741s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.743s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_args' from command line to 'None'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.775s] DEBUG:colcon.colcon_core.verb:Building package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/walker/Depth_gz/src/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/walker/Depth_gz/src/install/px4_msgs', 'merge_install': False, 'path': '/home/walker/Depth_gz/src/px4_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'depth_sim' build argument 'cmake_args' from command line to 'None'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'depth_sim' build argument 'cmake_target' from command line to 'None'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'depth_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'depth_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'depth_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'depth_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'depth_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'depth_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'depth_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.775s] DEBUG:colcon.colcon_core.verb:Building package 'depth_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/walker/Depth_gz/src/build/depth_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/walker/Depth_gz/src/install/depth_sim', 'merge_install': False, 'path': '/home/walker/Depth_gz/src/depth_sim', 'symlink_install': False, 'test_result_base': None}
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_args' from command line to 'None'
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_target' from command line to 'None'
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_clean_cache' from command line to 'False'
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_clean_first' from command line to 'False'
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_force_configure' from command line to 'False'
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'ament_cmake_args' from command line to 'None'
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'catkin_cmake_args' from command line to 'None'
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.776s] DEBUG:colcon.colcon_core.verb:Building package 'px4_offboard' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/walker/Depth_gz/src/build/px4_offboard', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/walker/Depth_gz/src/install/px4_offboard', 'merge_install': False, 'path': '/home/walker/Depth_gz/src/px4-offboard', 'symlink_install': False, 'test_result_base': None}
+[0.777s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_args' from command line to 'None'
+[0.777s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target' from command line to 'None'
+[0.777s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.777s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_cache' from command line to 'False'
+[0.777s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_first' from command line to 'False'
+[0.777s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_force_configure' from command line to 'False'
+[0.777s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'ament_cmake_args' from command line to 'None'
+[0.777s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_cmake_args' from command line to 'None'
+[0.777s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.777s] DEBUG:colcon.colcon_core.verb:Building package 'px4_ros_com' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/walker/Depth_gz/src/build/px4_ros_com', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/walker/Depth_gz/src/install/px4_ros_com', 'merge_install': False, 'path': '/home/walker/Depth_gz/src/px4_ros_com', 'symlink_install': False, 'test_result_base': None}
+[0.778s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.778s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.779s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/walker/Depth_gz/src/px4_msgs' with build type 'ament_cmake'
+[0.779s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/walker/Depth_gz/src/px4_msgs'
+[0.781s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.781s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.781s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.845s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/walker/Depth_gz/src/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/walker/Depth_gz/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --build /home/walker/Depth_gz/src/build/px4_msgs -- -j8 -l8
+[2.095s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete was interrupted
+[2.095s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete again
+[2.129s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/walker/Depth_gz/src/build/px4_msgs' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/walker/Depth_gz/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --build /home/walker/Depth_gz/src/build/px4_msgs -- -j8 -l8
+[2.184s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[2.190s] Level 1:colcon.colcon_core.environment:checking '/home/walker/Depth_gz/src/install/px4_msgs' for CMake module files
+[2.191s] Level 1:colcon.colcon_core.environment:checking '/home/walker/Depth_gz/src/install/px4_msgs' for CMake config files
+[2.196s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[2.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walker/Depth_gz/src/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[2.198s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/walker/Depth_gz/src/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[2.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walker/Depth_gz/src/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[2.200s] Level 1:colcon.colcon_core.environment:checking '/home/walker/Depth_gz/src/install/px4_msgs/lib'
+[2.200s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[2.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walker/Depth_gz/src/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[2.201s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/walker/Depth_gz/src/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[2.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/walker/Depth_gz/src/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[2.201s] Level 1:colcon.colcon_core.environment:checking '/home/walker/Depth_gz/src/install/px4_msgs/bin'
+[2.202s] Level 1:colcon.colcon_core.environment:checking '/home/walker/Depth_gz/src/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[2.202s] Level 1:colcon.colcon_core.environment:checking '/home/walker/Depth_gz/src/install/px4_msgs/lib/python3.10/site-packages'
+[2.202s] Level 1:colcon.colcon_core.environment:checking '/home/walker/Depth_gz/src/install/px4_msgs/bin'
+[2.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/walker/Depth_gz/src/install/px4_msgs/share/px4_msgs/package.ps1'
+[2.203s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/walker/Depth_gz/src/install/px4_msgs/share/px4_msgs/package.dsv'
+[2.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/walker/Depth_gz/src/install/px4_msgs/share/px4_msgs/package.sh'
+[2.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/walker/Depth_gz/src/install/px4_msgs/share/px4_msgs/package.bash'
+[2.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/walker/Depth_gz/src/install/px4_msgs/share/px4_msgs/package.zsh'
+[2.205s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/walker/Depth_gz/src/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[2.216s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished
+[2.216s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.216s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.217s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.223s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.223s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.223s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.239s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.240s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/walker/Depth_gz/src/install/local_setup.ps1'
+[2.240s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/walker/Depth_gz/src/install/_local_setup_util_ps1.py'
+[2.242s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/walker/Depth_gz/src/install/setup.ps1'
+[2.243s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/walker/Depth_gz/src/install/local_setup.sh'
+[2.243s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/walker/Depth_gz/src/install/_local_setup_util_sh.py'
+[2.243s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/walker/Depth_gz/src/install/setup.sh'
+[2.245s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/walker/Depth_gz/src/install/local_setup.bash'
+[2.245s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/walker/Depth_gz/src/install/setup.bash'
+[2.247s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/walker/Depth_gz/src/install/local_setup.zsh'
+[2.248s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/walker/Depth_gz/src/install/setup.zsh'
